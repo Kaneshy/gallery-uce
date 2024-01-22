@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from 'framer-motion'
@@ -7,9 +6,8 @@ import { año2018, año2019, año2020, año2021, año2022, año2023 } from "@/co
 
 
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
 
-    const [test, settest] = useState([1, 1, 1, 1, 1, 1])
     const [data, setData] = useState([])
     console.log(data)
 
@@ -28,7 +26,6 @@ const page = ({ params }) => {
             }
         }
     }
-
 
     useEffect(() => {
         // Convertir params.id a número
@@ -98,4 +95,4 @@ const page = ({ params }) => {
     )
 }
 
-export default page
+export default Page

@@ -1,7 +1,7 @@
 import { likeThread } from '@/components/actions/actions'
 import FetchImages from '@/components/fetchImages'
 
-const page = async ({params}) => {
+const Page = async ({params}) => {
 
     const ano = (params.id).split('year')
     // const handleFollow = async () => {
@@ -26,4 +26,4 @@ const page = async ({params}) => {
     )
 }
 
-export default page
+export default Page

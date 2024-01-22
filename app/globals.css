@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,4 +31,31 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.grid-a {
+  width: 100%;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+  gap: 20px;
+  row-gap: 50px;
+}
+
+.max-width-a{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.font-1{
+  font-family: 'Oswald', sans-serif;;
+}
+
+.home-widge-a {
+  display: flex;
+  width: 100%;
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-position: center; /* Posiciona la imagen en el centro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }

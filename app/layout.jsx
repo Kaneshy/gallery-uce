@@ -14,11 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=' bg-white'>
+        <div className=' '>
           <Navbar value={'text-black'} />
         </div>
         {children}
+        <div className="m mt-56">
         <Footer/>
+        </div>
       </body>
     </html>
   );

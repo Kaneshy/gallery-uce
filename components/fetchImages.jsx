@@ -94,7 +94,7 @@ const FetchImages = ({ values }) => {
                 {dataH.map((x, index) => {
                     return (
 
-                        <section id={index} className=" home-widge-a flex flex-col  ">
+                        <section key={index} id={index} className=" home-widge-a flex flex-col  ">
 
                             <div className=" relative  flex flex-col items-center justify-center">
                                 {/* <motion.img

@@ -13,7 +13,7 @@ export async function likeThread({letter, year}) {
         console.log(letter, year)
         const results = await cloudinary.v2.search
             // you can add also AND tags=shirt AND uploaded_at>1d AND bytes>1m
-            .expression(`resource_type:image AND folder=uce proyect/2020/a`)
+            .expression(`tags=${letter}${year}`)
             .sort_by('uploaded_at', 'desc')
             .max_results(100)
             .execute();

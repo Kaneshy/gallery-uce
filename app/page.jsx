@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen flex  pt-10 flex-col max-width-a ">
+    <main className="min-h-screen flex max-width-a  flex-col ">
       <section className="w-full">
         <h1 className="text-center text-6xl font-1">Order by date</h1>
         <div className='grid-a '>
@@ -39,14 +39,20 @@ export default function Home() {
                   initial='initial'
                   variants={fadeInAnimationVariants}
                   whileInView='animate'
-                  whileHover={{ scale: 1.05 }}
                   viewport={{ once: true }}
                   custom={index}
                 >
-                  <div className="max-h-80 flex relative justify-center">
-                    <img className="flex object-contain" src="https://res.cloudinary.com/dh01ngdjo/image/upload/v1704496776/FASHION/Bags___Accessories_Bags_Mega_Menu_Espots_zg83x1.jpg" alt="" />
-                    <p className="absolute bottom-2 r right-10 text-body-bold p-2  bg-white text-black">{x}</p>
+                  <div className="flex rounded-xl  overflow-hidden min-h-96 relative justify-center">
+                    <img
+                      className="hover-filter-a"
+                      src="https://res.cloudinary.com/dztz492su/image/upload/v1705973412/test/unnamed_pqndw2.jpg"
+                      alt=""
+                    />
+                    <p className="absolute bottom-2 left-1/2 transform -translate-x-1/2 border-2 border-white text-white text-body-bold p-2">
+                      {x}
+                    </p>
                   </div>
+
                 </motion.div>
               </Link>
             )

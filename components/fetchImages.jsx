@@ -44,10 +44,10 @@ const FetchImages = ({values}) => {
 
         // Función recursiva para realizar el scroll y esperar
         function scrollYEsperar(index) {
-            if (index === test.length) {
+            if (index === dataH.length) {
                 router.back()
             }
-            if (index < test.length) {
+            if (index < dataH.length) {
                 const divId = index;
                 const div = document.getElementById(divId);
 
@@ -76,7 +76,7 @@ const FetchImages = ({values}) => {
 
     return (
 
-        <main>
+        <main className="bg-black">
             <div className="fixed  bottom-4 right-4  z-20">
                 <button onClick={scrollToBottom} className="flex items-center justify-centerrounded-full p-3 rounded-full bg-black text-white" ><FaPlay /></button>
                 <button onClick={iniciarScroll} className="flex items-center justify-centerrounded-full p-3 rounded-full bg-black text-white" ><FaPlay /></button>
@@ -93,7 +93,6 @@ const FetchImages = ({values}) => {
                         >
                             <section id={index} style={{ backgroundImage: `url(${x})` }} className="min-h-screen relative home-widge-a flex flex-col  p-4">
                                 <section className="w-full">
-                                    <h1 className="text-center font-1 text-6xl">CATEGORIES</h1>
                                     <div className='max-width-a '>
                                         <motion.div
                                             className='absolute bottom-8 left-4 max-w-lg'

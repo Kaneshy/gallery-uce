@@ -2,17 +2,20 @@ export const año2018 = [
     {
         id: 'ayear2018',
         title: 'Evento Raul - 2018',
-        desc: 'desc'
+        desc: 'desc',
+        img: 'https://res.cloudinary.com/dztz492su/image/upload/v1705975370/test/DT720_sziwtf.jpg'
     },
     {
         id: 'byear2018',
         title: 'Gritan Las Aulas - 2018',
-        desc: 'desc'
+        desc: 'desc',
+        img: 'https://res.cloudinary.com/dztz492su/image/upload/v1705975366/test/download_h0abf3.jpg'
     },
     {
         id: 'cyear2018',
         title: 'Inauguración - 2018',
-        desc: 'desc'
+        desc: 'desc',
+        img: 'https://res.cloudinary.com/dztz492su/image/upload/v1705975359/test/unnamed_kdgehc.jpg'
     }
 ]
 

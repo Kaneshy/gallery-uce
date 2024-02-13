@@ -34,7 +34,7 @@ const SecondNavbar = ({ value }) => {
                 className={`${scrollB > 80 ? 'fixed' : 'hidden'}  select-none w-full z-20`}
             >
                 <div className='flex w-full flex-col'>
-                    <nav className="flex items-center px-6  relative justify-between w-full py-2 text-gray-600 bg-white  ">
+                    <nav className="flex items-center px-6   relative justify-between w-full py-2 text-gray-600 bg-white  ">
                         {/* <button onClick={()=>router.back()} className="flex gap-2">
                         <IoMdArrowRoundBack size={24} />
                         <p>Back</p>

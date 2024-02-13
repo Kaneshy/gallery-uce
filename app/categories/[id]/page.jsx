@@ -66,7 +66,7 @@ const Page = ({ params }) => {
 
     return (
 
-        <main className="min-h-screen flex max-width-a  flex-col ">
+        <main className=" min-h-screen flex max-width-a  flex-col ">
             <section className="w-full">
                 <h1 className="text-center text-6xl font-1">Order by date</h1>
                 <div className='grid-a '>
@@ -74,24 +74,17 @@ const Page = ({ params }) => {
                         return (
                             <Link key={index} href={`/test/${x.id}`}>
                                 <motion.div
-                                    className=' '
+                                    className='bg-white '
                                     initial='initial'
                                     variants={fadeInAnimationVariants}
                                     whileInView='animate'
                                     viewport={{ once: true }}
                                     custom={index}
                                 >
-                                    <div className="flex rounded-xl  overflow-hidden relative justify-center">
-                                        <img
-                                            className="hover-filter-a w-full h-96"
-                                            src={x.img ? (x.img) : ('https://res.cloudinary.com/dztz492su/image/upload/v1705973412/test/unnamed_pqndw2.jpg')}
-                                            alt=""
-                                        />
-                                        <p className="absolute w-40 text-center top-10 left-1/2 transform -translate-x-1/2  text-white text-body-bold p-2 ">
+
+                                    <div className="flex items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
+                                        <p className="text-neutral-700 ">
                                             {x.title}
-                                        </p>
-                                        <p className="absolute bottom-2 left-1/2 transform -translate-x-1/2 border-2 border-white text-white text-body-bold p-2 w-fit">
-                                            {params.id}
                                         </p>
                                     </div>
 

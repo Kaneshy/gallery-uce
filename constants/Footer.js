@@ -61,22 +61,22 @@ export const company = [
 export const social = [
     {
         route:'https://www.facebook.com/lacentralec/',
-        iconR: <FaFacebookF size={40} />,
+        iconR: <FaFacebookF size={17} />,
         title: 'Facebook',
     },
     {
         route:'https://www.instagram.com/laucentralec/',
-        iconR: <FaInstagram  size={40} />,
+        iconR: <FaInstagram  size={17} />,
         title: 'Instagram',
     },
     {
         route:'https://twitter.com/lacentralec',
-        iconR: <FaSquareXTwitter size={40} />,
+        iconR: <FaSquareXTwitter size={17} />,
         title: 'X',
     },
     {
         route:'https://www.youtube.com/channel/UCBg2ksNwht164otsChyMhRA',
-        iconR: <FaWhatsapp   size={40} />,
+        iconR: <FaWhatsapp   size={17} />,
         title: 'Whatsapp',
     }
 ]

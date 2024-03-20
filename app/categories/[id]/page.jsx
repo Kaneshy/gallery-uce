@@ -68,7 +68,6 @@ const Page = ({ params }) => {
 
         <main className=" min-h-screen flex max-width-a  flex-col ">
             <section className="w-full">
-                <h1 className="text-center text-6xl font-1">Order by date</h1>
                 <div className='grid-a '>
                     {data && data.map((x, index) => {
                         return (
@@ -83,7 +82,7 @@ const Page = ({ params }) => {
                                 >
 
                                     <div className="flex items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
-                                        <p className="text-neutral-700 ">
+                                        <p className="text-black font-bold text-center p-4   ">
                                             {x.title}
                                         </p>
                                     </div>

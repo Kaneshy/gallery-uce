@@ -107,25 +107,12 @@ const FetchImages = ({ values }) => {
                                     src={x}
                                  /> */}
                                 <img className="max-h-screen lg:h-screen " src={x} alt="" />
-                                <motion.div
-                                    className='absolute text-center max-lg:hidden bottom-8 max-w-lg'
-                                    initial={{ x: -200, scale: 0.5 }}
-                                    whileInView={{ x: 0, scale: 1 }}
-                                    transition={{ duration: 1 }}
-                                    viewport={{ once: false }}
+
+                                <div
+                                    className='p-4 min-h-36 bg-white flex flex-col text-gray-700 lg:hidden w-full text-center'
+
                                 >
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio mollitia ut tempora ad aut quos alias ipsa necessitatibus neque debitis? Nesciunt possimus recusandae veritatis quod hic, aliquid eligendi repellat voluptatum!
-                                </motion.div>
-                                <motion.div
-                                    className='p-4 bg-white flex flex-col text-gray-700 lg:hidden w-full text-center'
-                                    initial={{ scale: 0.5 }}
-                                    whileInView={{ scale: 1 }}
-                                    transition={{ duration: 1 }}
-                                    viewport={{ once: false }}
-                                >
-                                    <h1 className="text-red-900">Lorem ipsum, dolor sit </h1>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio mollitia ut tempora ad aut quos alias ipsa necessitatibus neque debitis? Nesciunt possimus recusandae veritatis quod hic, aliquid eligendi repellat voluptatum!
-                                </motion.div>
+                                </div>
 
                             </div>
                             {/* </motion.section> */}

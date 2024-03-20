@@ -2,6 +2,10 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { TfiWorld } from "react-icons/tfi";
+
+
 
 
 export const help = [
@@ -60,23 +64,23 @@ export const company = [
 
 export const social = [
     {
-        route:'https://www.facebook.com/lacentralec/',
+        route:'https://www.facebook.com/InstitutoINIGED?mibextid=ibOpuV',
         iconR: <FaFacebookF size={17} />,
         title: 'Facebook',
     },
     {
-        route:'https://www.instagram.com/laucentralec/',
+        route:'https://www.instagram.com/iniged.uce?igsh=YTRqaXhqaTJ5eTZo',
         iconR: <FaInstagram  size={17} />,
         title: 'Instagram',
     },
     {
-        route:'https://twitter.com/lacentralec',
+        route:'https://twitter.com/inigeduce?s=11',
         iconR: <FaSquareXTwitter size={17} />,
         title: 'X',
     },
     {
-        route:'https://www.youtube.com/channel/UCBg2ksNwht164otsChyMhRA',
-        iconR: <FaWhatsapp   size={17} />,
+        route:'https://www.uce.edu.ec/web/iniged',
+        iconR: <TfiWorld  size={17}  />,
         title: 'Whatsapp',
     }
 ]

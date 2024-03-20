@@ -26,7 +26,9 @@ const SecondNavbar = ({ value }) => {
     // nt-bold py-2 px-4 rounded transition-transform transform hover:scale-125 duration-2000">
 
     return (
-        <>
+        <nav>
+
+
             <motion.div
                 initial={{ opacity: 0.5 }}
                 whileInView={{ opacity: 1 }}
@@ -49,8 +51,7 @@ const SecondNavbar = ({ value }) => {
                 </div>
             </motion.div>
 
-
-        </>
+        </nav>
     )
 }
 

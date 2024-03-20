@@ -29,7 +29,6 @@ export default function Home() {
   return (
     <main className=" flex max-width-a  flex-col ">
       <section className="w-full min-h-screen">
-        <h1 className="text-center text-6xl font-1">Order by date</h1>
         <div className='grid-a  '>
           {test.map((x, index) => {
             return (

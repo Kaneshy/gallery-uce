@@ -239,47 +239,47 @@ export const año2022 = [
 
 export const año2023 = [
     {
-        id:' ayear2023',
+        id:'ayear2023',
         title: '8 M',
         desc: 'desc'
     },
     {
-        id:' byear2023',
+        id:'byear2023',
         title: 'Evento de Ciclismo Inclusivo',
         desc: 'desc'
     },
     {
-        id:' cyear2023',
+        id:'cyear2023',
         title: 'Propuesta de Alianza Entre CHILFUND, INIGED y la Facultad de Filosofía',
         desc: 'desc'
     },
     {
-        id:' dyear2023',
+        id:'dyear2023',
         title: 'Encuentro afro',
         desc: 'desc'
     },
     {
-        id:' eyear2023',
+        id:'eyear2023',
         title: 'Evento de Certificación de la ESCUELA DE INVESTIGADORAS POPULARES',
         desc: 'desc'
     },
     {
-        id:' fyear2023',
+        id:'fyear2023',
         title: 'Evento Corazón Facultad de Comunicación Social por la Inclusión',
         desc: 'desc'
     },
     {
-        id:' gyear2023',
+        id:'gyear2023',
         title: 'Cobertura de la Colocación de Señalética en Braile en la Facultad de Comunicación Social',
         desc: 'desc'
     },
     {
-        id:' hyear2023',
+        id:'hyear2023',
         title: 'VIII Feria Coexistir en Paz',
         desc: 'desc'
     },
     {
-        id:' iyear2023',
+        id:'iyear2023',
         title: 'VI Concurso Interno de Litigio en Derechos Humanos',
         desc: 'desc'
     },

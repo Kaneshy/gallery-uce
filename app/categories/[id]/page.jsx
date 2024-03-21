@@ -81,7 +81,7 @@ const Page = ({ params }) => {
                                     custom={index}
                                 >
 
-                                    <div className="flex items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
+                                    <div className="flex hover:scale-105 transition-all duration-300 ease-in-out items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
                                         <p className="text-black font-bold text-center p-4   ">
                                             {x.title}
                                         </p>

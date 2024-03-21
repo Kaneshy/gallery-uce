@@ -3,12 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { motion } from 'framer-motion'
+import { assetsb } from "@/constants/assets";
 
 export default function Home() {
 
-  const [test, settest] = useState([
-    2018, 2019, 2020, 2021, 2022, 2023
-  ])
 
   const fadeInAnimationVariants = {
     initial: {
@@ -30,20 +28,22 @@ export default function Home() {
     <main className=" flex max-width-a  flex-col ">
       <section className="w-full min-h-screen">
         <div className='grid-a  '>
-          {test.map((x, index) => {
+          {assetsb.map((x, index) => {
             return (
-              <Link key={index} href={`/categories/${x}`}>
+              <Link key={index} href={`/categories/${x.title}`}>
                 <motion.div
-                  className='bg-white'
+                  className='bg-[#d9d9d9]'
                   initial='initial'
                   variants={fadeInAnimationVariants}
                   whileInView='animate'
                   viewport={{ once: true }}
                   custom={index}
                 >
-                  <div className="flex items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
-                    <p className="text-neutral-700 ">
-                      {x}
+                  <div className="flex  p-4 relative flex-col items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44  justify-center">
+                    
+                    <img src={x.img} className="w-full hover:scale-105 transition-all duration-300 ease-in-out object-cover" alt="" />
+                    <p className="  text-neutral-700 font-bold ">
+                      {x.title}
                     </p>
                   </div>
 

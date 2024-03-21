@@ -16,12 +16,10 @@ const Page = async ({params}) => {
         year: ano[1]
     })
     const data = b.props.secureUrls
-   
-
 
     return (
         <div>
-            <FetchImages values={data}/>
+            <FetchImages values={data} valueb={params.id}/>
         </div>
     )
 }

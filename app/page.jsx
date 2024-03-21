@@ -25,9 +25,9 @@ export default function Home() {
   }
 
   return (
-    <main className=" flex max-width-a  flex-col ">
-      <section className="w-full min-h-screen">
-        <div className='grid-a  '>
+    <main className=" flex max-width-a select-none  flex-col ">
+      <section className="w-full min-h-screen mt-20">
+        <div className='grid-a   '>
           {assetsb.map((x, index) => {
             return (
               <Link key={index} href={`/categories/${x.title}`}>

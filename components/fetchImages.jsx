@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import { FaPlay } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
 import { FaAngleDown } from "react-icons/fa";
+import { practicasb } from "@/constants/assets";
 
 
-
-const FetchImages = ({ values }) => {
+const FetchImages = ({ values, valueb }) => {
 
     const [imga, setimga] = useState('')
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -76,7 +76,7 @@ const FetchImages = ({ values }) => {
         setimga('https://res.cloudinary.com/dh01ngdjo/image/upload/v1705074703/Screenshot_2024-01-12_105045_jdjj9m.jpg')
         // iniciarScroll()
         setdataH(values)
-        console.log('dfd', values)
+        console.log('dfjjjd', values)
     }, [])
 
     return (
@@ -92,32 +92,27 @@ const FetchImages = ({ values }) => {
             </div>
             <section className="flex flex-col">
                 {dataH.map((x, index) => {
-                    return (
-
-                        <section key={index} id={index} className=" home-widge-a flex flex-col  ">
-
-                            <div className=" relative  flex flex-col items-center justify-center">
-                                {/* <motion.img
-                                    initial={{ scale: 0.5 }}
-                                    whileInView={{ scale: 1 }}
-                                    transition={{ duration: 1 }}
-                                    viewport={{ once: false }}
-                                    className="max-h-screen h-screen "
-                                    alt=""
-                                    src={x}
-                                 /> */}
-                                <img className="max-h-screen lg:h-screen " src={x} alt="" />
-
-                                <div
-                                    className='p-4 min-h-36 bg-white flex flex-col text-gray-700 lg:hidden w-full text-center'
-
-                                >
+                    if (valueb === 'nyear2023') {
+                        const itemWithId = practicasb.find(item => item.id === index)
+                        return (
+                            <section key={index} id={index} className=" home-widge-a flex flex-col  ">
+                                <div className=" relative  flex flex-col items-center justify-center">
+                                    <img className="max-h-screen lg:h-screen " src={x} alt="" />
                                 </div>
+                                <p className="p-4 bg-white font-semibold text-center text-neutral-800">{itemWithId.title}</p>
+                            </section>
+                            
+                        )
+                    } else {
+                        return (
+                            <section key={index} id={index} className=" home-widge-a flex flex-col  ">
+                                <div className=" relative  flex flex-col items-center justify-center">
+                                    <img className="max-h-screen lg:h-screen " src={x} alt="" />
+                                </div>
+                            </section>
+                        )
+                    }
 
-                            </div>
-                            {/* </motion.section> */}
-                        </section>
-                    )
                 })}
             </section>
 

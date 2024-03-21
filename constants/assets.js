@@ -24,3 +24,27 @@ export const assetsb = [
         img: 'assets/6.jpeg'
       }
 ]
+
+export const practicasb = [
+    {
+        id:0,
+        title: 'Prácticas Ciencias Psicológicas - Ariadna Te Escucha, Laberinto de Ariadna'
+    },
+    {
+        id:1,
+        title: 'Prácticas Ciencias Sociales'
+    },
+    {
+        id:2,
+        title: 'Prácticas Comunicación Social'
+    },
+    {
+        id:3,
+        title: 'Prácticas Comunicación Social'
+    },
+    {
+        id:4,
+        title: 'Prácticas Comunicación Social'
+    }
+
+]

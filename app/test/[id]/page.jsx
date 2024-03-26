@@ -16,11 +16,11 @@ const Page = async ({params}) => {
         year: ano[1]
     })
     const data = b.props.secureUrls
-    console.log(params.id[0])
+    console.log('ddd', ano[1])
 
     return (
         <div>
-            <FetchImages values={data} valueb={params.id}/>
+            <FetchImages values={data} valueb={params.id} yearb={ano[1]}/>
         </div>
     )
 }

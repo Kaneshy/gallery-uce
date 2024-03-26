@@ -256,7 +256,7 @@ export const año2023 = [
     },
     {
         id:'dyear2023',
-        title: 'Encuentro afro',
+        title: 'Encuentro de Mujeres Afrodescendientes y Afroecuatorianas',
         desc: 'desc'
     },
     {
@@ -320,18 +320,13 @@ export const año2023 = [
         desc: 'desc'
     },
     {
-        id: 'pyear2023',
-        title: 'sesión solenme',
-        desc: 'desc'
-    },
-    {
         id: 'qyear2023',
         title: 'Taller de Prevención de Violencia Basada en Género en la Facultad de Artes',
         desc: 'desc'
     },
     {
         id: 'ryear2023',
-        title: 'V concurso',
+        title: 'V Concurso Interno de Litigio en Derechos Humanos',
         desc: 'desc'
     }
 ]

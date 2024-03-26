@@ -16,6 +16,7 @@ const Page = async ({params}) => {
         year: ano[1]
     })
     const data = b.props.secureUrls
+    console.log(params.id[0])
 
     return (
         <div>

@@ -67,13 +67,14 @@ const Page = ({ params }) => {
     return (
 
         <main className=" min-h-screen flex max-width-a  flex-col ">
+            
             <section className="w-full">
                 <div className='grid-a '>
                     {data && data.map((x, index) => {
                         return (
                             <Link key={index} href={`/test/${x.id}`}>
                                 <motion.div
-                                    className='bg-white '
+                                    className=' text-white '
                                     initial='initial'
                                     variants={fadeInAnimationVariants}
                                     whileInView='animate'
@@ -81,8 +82,8 @@ const Page = ({ params }) => {
                                     custom={index}
                                 >
 
-                                    <div className="flex hover:scale-105 transition-all duration-300 ease-in-out items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]  overflow-hidden min-h-44 relative justify-center">
-                                        <p className="text-black font-bold text-center p-4   ">
+                                    <div className="flex bg-red-900 hover:scale-105 transition-all duration-300 ease-in-out items-center shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] h-72 relative justify-center">
+                                        <p className=" text-center p-4   ">
                                             {x.title}
                                         </p>
                                     </div>

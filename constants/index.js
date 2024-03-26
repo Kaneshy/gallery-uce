@@ -102,7 +102,7 @@ export const año2019 = [
     },
     {
         id: 'qyear2019',
-        title: 'Juntos Contra la Violencia de Género',
+        title: 'Juntxs Contra la Violencia de Género. Camparñas de Prevención de Violencia con Trabajadoras Trans y La Falcultad de Ciencias Administrativas',
         desc: 'desc'
     },
     {
@@ -119,11 +119,11 @@ export const año2019 = [
 ]
 
 export const año2020 = [
-    {
-        id:'ayear2020',
-        title: 'Conversatorio',
-        desc: 'desc'
-    },
+    // {
+    //     id:'ayear2020',
+    //     title: 'Conversatorio',
+    //     desc: 'desc'
+    // },
     {
         id:'byear2020',
         title: 'Evento Ceremonial de Entrega de Certificados de Aprobación Curso UCE Libre de Violencia a los Estudiantes de la Facultad de Ciencias Administrativas',
@@ -136,19 +136,20 @@ export const año2020 = [
     },
     {
         id:'dyear2020',
-        title: 'Lazamiento del Labreinto de Ariadan en la Facultad de Filosofía, Ciencias y Letras',
+        title: 'Lanzamiento del Laberinto de Ariadna en la Facultad de Filosofía, Ciencias y Letras',
         desc: 'desc'
     },
     {
         id:'eyear2020',
         title: 'Reconocimiento a María Arboleda, Mujer Militante, y Académica',
         desc: 'desc'
-    },
-    {
-        id:'fyear2020',
-        title: 'I Encuentro Estudiantil Sobre Arte y Pensamiento Crítico',
-        desc: 'desc'
-    },
+    }
+    ,
+    // {
+    //     id:'fyear2020',
+    //     title: 'I Encuentro Estudiantil Sobre Arte y Pensamiento Crítico',
+    //     desc: 'desc'
+    // },
     {
         id:'gyear2020',
         title: 'Revisar -Conversatorios FUnción Judicial',
@@ -161,17 +162,17 @@ export const año2020 = [
     },
     {
         id:'iyear2020',
-        title: 'Taller de Sensibilziación Sobre Violencia Basada en Género a Estudiantes de la Facultad de Jurisprudencia',
+        title: 'Taller de Sensibilización Sobre Violencia Basada en Género a Estudiantes de la Facultad de Jurisprudencia',
         desc: 'desc'
     },
     {
         id:'jyear2020',
-        title: 'Taller de Capacidades y Comunicicaon Asertiva en la Facultad de Ciencias Administrativas',
+        title: 'Taller de Capacidades y Comunicación Asertiva en la Facultad de Ciencias Administrativas',
         desc: 'desc'
     },
     {
         id: 'kyear2020',
-        title: 'Perfomance “ Un Violador en tu Camino” Inspirado en la Propuesta de La Tesis',
+        title: 'Performance “ Un Violador en tu Camino” Inspirado en la Propuesta de La Tesis',
         desc: 'desc'
     },
     {
@@ -207,7 +208,7 @@ export const año2022 = [
     },
     {
         id: 'byear2022',
-        title: 'ARQUITECTURA',
+        title: 'Lanzamiento del Libro Conocerce para Empoderarse, Arquitectura, Género y otras Disciplinas',
         desc: 'desc'
     },
     {
@@ -240,7 +241,7 @@ export const año2022 = [
 export const año2023 = [
     {
         id:'ayear2023',
-        title: '8 M',
+        title: 'Estudiantes de las Universidades y Colectivas Juntas por la Resiliencia y Resistencia',
         desc: 'desc'
     },
     {
@@ -290,7 +291,7 @@ export const año2023 = [
     },
     {
         id: 'kyear2023',
-        title: 'Taller de Construcción del Proyecto de Investigación Violencia de Género en las IES',
+        title: 'Taller de Construcción del Proyecto de Investigación Violencia de Género en las Instituciones de Educación Superior',
         desc: 'desc'
     },
     {

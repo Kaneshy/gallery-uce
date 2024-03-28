@@ -57,8 +57,6 @@ const Page = ({ params }) => {
                 // Manejar el caso en el que el año no está en el rango esperado
                 break;
         }
-        console.log(selectedYear, 'ffffffffff')
-
         // Hacer algo con el array seleccionado (por ejemplo, establecerlo en el estado)
         setData(selectedArray);
     }, [params.id]);

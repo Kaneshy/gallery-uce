@@ -1,14 +1,10 @@
 'use client'
 import SecondNavbar from "@/components/SecondNavbar";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { motion } from 'framer-motion'
 import { social } from "@/constants/Footer";
 
 const Navbar = ({ value }) => {
-    const router = useRouter()
-
-    
     return (
         <main className="" >
             <SecondNavbar />
@@ -45,19 +41,6 @@ const Navbar = ({ value }) => {
                         </div>
                     </div>
                 </nav>
-                {/* {
-                    params == '/' ? (
-                        <div className='w-full bg-white  flex text-center justify-center gap-x-4   p-2'>
-                            <p className="">INIGED es una entidad generadora de propuestas académicas e investigación en géneros y derechos </p>
-                        </div>
-                    ) : (
-                        <div>
-
-                        </div>
-                    )
-                } */}
-
-
             </div>
         </main>
     )

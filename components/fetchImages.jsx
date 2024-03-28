@@ -1,9 +1,7 @@
 'use client'
 import { useEffect, useState } from "react";
-import { motion } from 'framer-motion'
 import { FaPlay } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
-import { FaAngleDown } from "react-icons/fa";
 import { practicasb } from "@/constants/assets";
 import { TbArrowBackUpDouble } from "react-icons/tb";
 import Link from "next/link";
@@ -41,10 +39,6 @@ const FetchImages = ({ values, valueb, yearb }) => {
             targetElement.scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
         }
 
-        // window.scrollTo({
-        //   top: newScrollPosition,
-        //   behavior: 'smooth',
-        // });
     };
 
 
@@ -116,18 +110,10 @@ const FetchImages = ({ values, valueb, yearb }) => {
                 break;
         }
 
-        
-        // const foundItem = findById(yearb, 'byear2021');
-        console.log(selectedYear, 'xxxx');
-        console.log(selectedArray, 'ddddd');
-        console.log(params.id, 'ddddd');
-
         const titleAsk = selectedArray.find(item => item.id === params.id);
         console.log(titleAsk, 'dddssss')
         settitleA(titleAsk.title)
 
-        // Hacer algo con el array seleccionado (por ejemplo, establecerlo en el estado)
-        // setData(selectedArray);
     }, [yearb]);
 
 
@@ -144,7 +130,7 @@ const FetchImages = ({ values, valueb, yearb }) => {
         <main className="bg-color-ba">
             <div className='w-full bg-white  flex text-center justify-center gap-x-4   p-2'>
                 <p className="font-bold p-4">{titleA} </p>
-            </div>
+            </div>ñ
             <div className="fixed flex gap-x-4  bottom-4 right-4  z-20">
                 <Link href={'/'} className="flex items-center justify-centerrounded-full p-3 rounded-full bg-white opacity-50 text-gray-500" >
                     <TbArrowBackUpDouble size={18} />

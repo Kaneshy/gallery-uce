@@ -24,10 +24,7 @@ const Footer = () => {
                 
             <span className="w-full text-small-regular text-neutral-300  text-center flex justify-center items-center text-sm ">© 2024 <a href="https://flowbite.com/" className="hover:underline">INIGED</a>. All Rights Reserved.
                 </span>
-
             </div>
-           
-
         </footer>
 
     )
